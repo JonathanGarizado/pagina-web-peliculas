@@ -8,22 +8,49 @@
     <meta name="description" content="UMB Virtual HTML">
     <meta name="keywords" content="HTML5, CSS5, JavaScript">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script  typle= "text/javascript" src="js/bootstrap.min.js" ></script>
+    <script typle="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <center>
         <h1>
             Formulario
         </h1>
-    </center><br>
+    </center>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="canvas.html">Canvas</a></li>
-                <li><a href="formularios.html">Formularios</a></li>
-            </ul>
-        </nav>
-    </header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="65px" height="50px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="confiteria.html">Confitería</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Sobre Nosotros</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="formularios.html">Registrate</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+              </div>
+          </div>
+      </nav>
+  </header>
     <center>
         <section class="form-registro">
             <h4>Formulario de registro</h4> 
@@ -37,6 +64,6 @@
         </section>
     </center>
     
-    
+    <footer> Hecho por Jonathan Garizado - 2021 </footer>
 </body>
 </html>
